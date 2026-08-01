@@ -1,0 +1,91 @@
+==============================
+JENKINS DAY 02 - GITHUB INTEGRATION
+==============================
+
+What is Git?
+-------------
+Git is a Version Control System (VCS).
+It tracks changes in source code and allows multiple developers to work together.
+
+What is GitHub?
+----------------
+GitHub is a cloud platform used to store Git repositories.
+
+What is SCM?
+-------------
+SCM stands for Source Code Management.
+It helps manage and track source code versions.
+
+Why integrate Jenkins with GitHub?
+-----------------------------------
+• Automatically download source code
+• Build the latest project
+• Run tests
+• Enable Continuous Integration
+
+Steps Performed
+----------------
+1. Created a GitHub repository.
+2. Added project files.
+3. Created a Jenkins Freestyle Project.
+4. Selected Git under Source Code Management.
+5. Entered the GitHub Repository URL.
+6. Added a Windows Batch Build Step.
+7. Executed Build Now.
+8. Verified the Console Output.
+
+Build Commands
+----------------
+dir
+
+echo Jenkins Successfully Downloaded Files
+
+echo Build Successful
+
+Key Terms
+-----------
+Git - Version Control System
+
+GitHub - Code Hosting Platform
+
+SCM - Source Code Management
+
+Repository - Project Storage
+
+Workspace - Jenkins working directory
+
+Console Output - Build execution logs
+
+Build - Execution of project tasks
+
+Real-Time Workflow
+-------------------
+
+Developer
+      ↓
+Push Code
+      ↓
+GitHub Repository
+      ↓
+Jenkins
+      ↓
+Clone Repository
+      ↓
+Build
+      ↓
+Test
+      ↓
+Deploy
+
+Interview Questions
+--------------------
+1. What is Git?
+2. What is GitHub?
+3. What is SCM?
+4. Why does Jenkins integrate with GitHub?
+5. What happens when Build Now is clicked?
+6. What is Continuous Integration (CI)?
+
+Conclusion
+------------
+Successfully integrated Jenkins with GitHub and understood the basic Continuous Integration workflow.
